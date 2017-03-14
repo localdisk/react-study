@@ -1,7 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import ShoppingList from "./components/ShoppingList";
 
 ReactDOM.render(
-    <h1>Hello, world!</h1>,
-    document.getElementById('root')
+  <div>
+    <h1>Hello, world!</h1>
+    <ShoppingList name="sample"></ShoppingList>
+  </div>,
+  document.getElementById('root')
 );
